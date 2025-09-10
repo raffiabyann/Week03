@@ -1,0 +1,37 @@
+1. Multidimensional Arrays
+Multidimensional array adalah array yang memiliki lebih dari satu dimensi, 
+atau bisa disebut array di dalam array. Paling umum adalah array dua dimensi,
+ yang sering dipakai untuk merepresentasikan tabel atau matriks.
+ 
+ int[][] matrix = {
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+};
+System.out.println(matrix[1][2]); // output: 6
+
+
+13 Method String dalam Java
+Berikut 13 method penting dalam kelas String:
+
+length() → mengembalikan panjang string.
+charAt(int index) → mengambil karakter pada posisi tertentu.
+substring(int beginIndex, int endIndex) → mengambil sebagian string.
+equals(String another) → membandingkan isi string.
+equalsIgnoreCase(String another) → membandingkan isi string tanpa memperhatikan huruf besar/kecil.
+compareTo(String another) → membandingkan dua string secara leksikografis.
+toUpperCase() → mengubah semua huruf menjadi kapital.
+toLowerCase() → mengubah semua huruf menjadi kecil.
+trim() → menghapus spasi di awal dan akhir string.
+replace(char oldChar, char newChar) → mengganti karakter tertentu.
+contains(CharSequence s) → mengecek apakah substring ada dalam string.
+startsWith(String prefix) → mengecek apakah string diawali teks tertentu.
+endsWith(String suffix) → mengecek apakah string diakhiri teks tertentu.
+
+Keuntungan Immutability dalam Java
+
+Keamanan (Security): Objek String tidak bisa diubah setelah dibuat,
+ sehingga aman dipakai di banyak konteks, termasuk sebagai kunci dalam HashMap.
+
+Thread-safety: Karena immutable, string dapat digunakan bersama
+oleh banyak thread tanpa perlu sinkronisasi tambahan.
